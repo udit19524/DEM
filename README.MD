@@ -2,13 +2,13 @@
 This project contains the source code for DEM challenge and has been implemented as fastapi. (For detailed screenshots please review the word document DEM Section 1 and 2 in the repo)
 
 ### Prerequisites
-Fastapi
-Docker
-Python
-Pipenv
-Local Kubernetes environment
+- Fastapi
+- Docker
+- Python
+- Pipenv
+- Local Kubernetes environment
 (Using minikube instead of Docker Desktop). Use `brew upgrade minikube` if you have an older version of minikube, as some incompatibilities may exist.
-Kubectl. Aliases are optional but highly recommended.
+- Kubectl. Aliases are optional but highly recommended.
 
 
 ### Setup
