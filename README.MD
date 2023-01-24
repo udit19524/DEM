@@ -1,7 +1,8 @@
 # DEM
-This project contains the source code for DEM challenge. (For detailed screenshots please review the word document DEM Section 1 and 2 in the repo)
+This project contains the source code for DEM challenge and has been implemented as fastapi. (For detailed screenshots please review the word document DEM Section 1 and 2 in the repo)
 
 ### Prerequisites
+Fastapi
 Docker
 Python
 Pipenv
