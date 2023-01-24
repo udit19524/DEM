@@ -1,0 +1,14 @@
+apiVersion: networking.k8s.io/v
+kind: Ingress
+metadata:
+  name: dem-ingress
+spec:
+  rules:
+    - host: web.info
+      http:
+        paths:
+          - pathType: Prefix
+            path: /
+            backend:
+              serviceName: web
+              servicePort: 8080
